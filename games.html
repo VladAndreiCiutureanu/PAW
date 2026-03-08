@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media Vault</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/layout.css">
+        <link rel="stylesheet" href="styles/grid.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar">
+                <div class="logo">
+                    MediaVault
+                </div>
+                <div class="nav-links">
+                    <a href="index.html" class="link">Home</a>
+                    <a href="movies.html" class="link">Movies</a>
+                    <a href="tv.html" class="link">TV</a>
+                    <a href="music.html" class="link">Music</a>
+                    <a href="games.html" class="link">Games</a>
+                    <a href="books.html" class="link">Books</a>
+                    <a href="profile.html" class="link profile-link">Profile</a>
+                </div>
+            </nav>
+        </header>
+        <div class="page-layout">
+            <nav class="sidebar">
+                <div class="sidebar-discover">
+                    <h3>Discover</h3>
+                    <div class="sidebar-menu">
+                        <div class="sidebar-menu-item active" data-category="trending">Trending now</div>
+                        <div class="sidebar-menu-item" data-category="new">New releases</div>
+                        <div class="sidebar-menu-item" data-category="coming">Coming soon</div>
+                    </div>
+                </div>
+                <div class="sidebar-genres">
+                    <h3>Genres</h3>
+                    <div class="sidebar-menu">
+                        <div class="sidebar-menu-item" data-category="rpg">RPG</div>
+                        <div class="sidebar-menu-item" data-category="shooter">Shooter</div>
+                        <div class="sidebar-menu-item" data-category="action">Action &amp; Adventure</div>
+                        <div class="sidebar-menu-item" data-category="strategy">Strategy</div>
+                        <div class="sidebar-menu-item" data-category="indie">Indie</div>
+                    </div>
+                </div>
+            </nav>
+            <main class="content">
+                <div class="content-header">
+                    <h2>Trending Games</h2>
+                    <div class="filter-group">
+                        <select class="sort-dropdown">
+                            <option value="popular">Sort by: Popularity</option>
+                            <option value="newest">Sort by: Newest</option>
+                            <option value="rating">Sort by: Highest Rated</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="media-grid"></div>
+            </main>
+        </div>
+    <script src="scripts/games.js"></script>
+    </body>
+</html>

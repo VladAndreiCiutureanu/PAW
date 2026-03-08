@@ -1,0 +1,60 @@
+.dashboard-container{
+    text-align: center;
+    margin: 150px;
+}
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+    padding: 60px;
+    border-radius: 24px;
+}
+.welcome-section h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.highlight-text{
+    font-style: italic;
+}
+.welcome-section p{
+    color: rgba(255,255,255,0.7);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.search-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-search{
+    padding: 10px 25px;
+    width: 375px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: 1px solid rgba(58,28,113,0.5);
+    border-radius: 4px;
+    border-right: none;
+    outline: none;
+    transition: border-color 0.15s;
+}
+.main-search:focus{
+    border-color: #fdbb2d;
+}
+.search-button{
+    padding: 11px 25px;
+    border-radius: 0 40px 40px 0;
+    margin-left: -20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3a1c71 100%);
+    color: white;
+}
+.search-button:hover{
+    box-shadow: 0 0 20px rgba(253, 187, 45, 0.6);
+}

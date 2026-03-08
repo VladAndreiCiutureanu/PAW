@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/layout.css"> 
+        <link rel="stylesheet" href="styles/profile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="site-header">
+            <nav class="navbar">
+                <div class="logo">
+                    MediaVault
+                </div>
+                <div class="nav-links">
+                    <a href="index.html" class="link">Home</a>
+                    <a href="movies.html" class="link">Movies</a>
+                    <a href="tv.html" class="link">TV</a>
+                    <a href="music.html" class="link">Music</a>
+                    <a href="games.html" class="link">Games</a>
+                    <a href="books.html" class="link">Books</a>
+                    <a href="profile.html" class="link profile-link">Profile</a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="profile-page-wrapper">
+            <div class="profile-container">
+                
+                <section class="user-card">
+                    <img src="https://placehold.co/120x120/3A1C71/FDBB2D?text=User" alt="User Avatar" class="avatar">
+                    <div class="user-details">
+                        <h2 class="user-name">User</h2>
+                        <p class="user-email">user@example.com</p>
+                    </div>
+                </section>
+
+                <section class="vault-section">
+                    <div class="content-header">
+                        <h2>My Vault</h2>
+                        <div class="filter-group">
+                            <select class="sort-dropdown">
+                                <option value="newest">Sort by: Newest</option>
+                                <option value="rating">Sort by: Highest Rated</option>
+                                <option value="popular">Sort by: Popularity</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="vault-controls">
+                        <label class="checkbox-label"><input type="checkbox" class="category-filter" value="Movie" checked>Movies</label>
+                        <label class="checkbox-label"><input type="checkbox" class="category-filter" value="TV Show" checked>TV Shows</label>
+                        <label class="checkbox-label"><input type="checkbox" class="category-filter" value="Game" checked>Games</label>
+                        <label class="checkbox-label"><input type="checkbox" class="category-filter" value="Music" checked>Music</label>
+                        <label class="checkbox-label"><input type="checkbox" class="category-filter" value="Book" checked>Books</label>
+                    </div>
+
+                    <div class="media-grid"></div>
+                </section>
+                
+            </div>
+            <script src="scripts/profile.js"></script>
+        </main>
+    </body>
+</html>
