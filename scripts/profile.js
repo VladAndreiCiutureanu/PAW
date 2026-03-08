@@ -42,7 +42,7 @@ function renderCards(itemsArray){
     mediaGrid.innerHTML = '';
     
     if(!itemsArray || itemsArray.length === 0){
-        mediaGrid.innerHTML = '<p style="color: rgba(255,255,255,0.5); font-size: 1.2rem; margin-top: 20px;">No items match your filters.</p>';
+        mediaGrid.innerHTML = '<p style="color: rgba(255,255,255,0.5); font-size: 18px; margin-top: 20px;">No items match your filters.</p>';
         return;
     }
     

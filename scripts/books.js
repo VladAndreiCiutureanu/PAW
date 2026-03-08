@@ -128,7 +128,6 @@ function sortAndLoadBooks() {
     const sortMethod = sortDropdown.value;
 
     if (sortMethod === 'newest') {
-
         booksToDisplay.sort((a, b) => (b.year || 0) - (a.year || 0));
     } else if (sortMethod === 'rating') {
         booksToDisplay.sort((a, b) => b.rating - a.rating);

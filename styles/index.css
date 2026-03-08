@@ -54,6 +54,7 @@
     font-size: 16px;
     background: linear-gradient(90deg, #FDBB2D 0%, #3a1c71 100%);
     color: white;
+    transition: box-shadow 0.15s;
 }
 .search-button:hover{
     box-shadow: 0 0 20px rgba(253, 187, 45, 0.6);
