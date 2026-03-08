@@ -23,7 +23,7 @@ const musicDatabase = {
         { title: "TYLA", meta: "Tyla &bull; R&B", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Tyla", popularity: 90, rating: 8.1, year: 2024 },
         { title: "Las Mujeres Ya No Lloran", meta: "Shakira &bull; Latin", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Shakira", popularity: 89, rating: 8.3, year: 2024 }
     ],
-    "coming": [
+    "picks": [
         { title: "Lasso", meta: "Lana Del Rey &bull; Alt", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Lasso", popularity: 95, rating: 8.8, year: 2024 },
         { title: "Y2K", meta: "Ice Spice &bull; Hip Hop", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Y2K", popularity: 88, rating: 7.9, year: 2024 },
         { title: "Loom", meta: "Imagine Dragons &bull; Rock", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Loom", popularity: 85, rating: 8.0, year: 2024 },

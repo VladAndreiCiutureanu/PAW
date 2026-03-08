@@ -23,7 +23,7 @@ const booksDatabase = {
         { title: "Toxic Prey", meta: "John Sandford &bull; Thriller", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Toxic+Prey", popularity: 80, rating: 7.8, year: 2024 },
         { title: "First Lie Wins", meta: "Ashley Elston &bull; Thriller", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=First+Lie+Wins", popularity: 85, rating: 8.1, year: 2024 }
     ],
-    "coming": [
+    "picks": [
         { title: "Onyx Storm", meta: "Rebecca Yarros &bull; Fantasy", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Onyx+Storm", popularity: 98, rating: 8.9, year: 2025 },
         { title: "The Winds of Winter", meta: "George R.R. Martin &bull; Fantasy", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Winds+of+Winter", popularity: 99, rating: 9.5, year: 2025 },
         { title: "Long Island", meta: "Colm Tóibín &bull; Fiction", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Long+Island", popularity: 85, rating: 8.0, year: 2024 },

@@ -23,7 +23,7 @@ const movieDatabase = {
         { title: "Immaculate", meta: "2024 &bull; Horror", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Immaculate", popularity: 68, rating: 6.2 },
         { title: "Dune: Part Two", meta: "2024 &bull; Sci-Fi", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Dune+2", popularity: 99, rating: 8.8 }
     ],
-    "coming": [
+    "picks": [
         { title: "Alien: Romulus", meta: "2024 &bull; Horror", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Alien", popularity: 88, rating: 7.5 },
         { title: "Gladiator 2", meta: "2024 &bull; Action", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Gladiator+2", popularity: 92, rating: 7.8 },
         { title: "Wicked", meta: "2024 &bull; Drama", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Wicked", popularity: 90, rating: 7.6 },

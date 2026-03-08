@@ -23,7 +23,7 @@ const gamesDatabase = {
         { title: "Balatro", meta: "2024 &bull; Indie", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Balatro", popularity: 91, rating: 9.0 },
         { title: "Rise of the Ronin", meta: "2024 &bull; Action", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Ronin", popularity: 80, rating: 7.6 }
     ],
-    "coming": [
+    "picks": [
         { title: "Grand Theft Auto VI", meta: "2025 &bull; Action", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=GTA+VI", popularity: 99, rating: 9.5 },
         { title: "Hollow Knight: Silksong", meta: "TBA &bull; Indie", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Silksong", popularity: 95, rating: 9.0 },
         { title: "Death Stranding 2", meta: "2025 &bull; Action", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=DS2", popularity: 88, rating: 8.5 },

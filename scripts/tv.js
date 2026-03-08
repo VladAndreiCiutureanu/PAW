@@ -23,7 +23,7 @@ const tvDatabase = {
         { title: "Tracker", meta: "2024 &bull; Drama", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Tracker", popularity: 85, rating: 7.1 },
         { title: "Constellation", meta: "2024 &bull; Sci-Fi", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Constellation", popularity: 82, rating: 6.9 }
     ],
-    "coming": [
+    "picks": [
         { title: "House of the Dragon: S2", meta: "2024 &bull; Fantasy", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=HotD+S2", popularity: 98, rating: 8.8 },
         { title: "The Boys: Season 4", meta: "2024 &bull; Action", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=The+Boys+S4", popularity: 96, rating: 8.9 },
         { title: "Severance: Season 2", meta: "TBA &bull; Sci-Fi", image: "https://placehold.co/300x450/1a1a2e/fdbb2d?text=Severance+S2", popularity: 94, rating: 8.7 },
